@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@dfuse/client@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@dfuse/client/-/client-0.2.1.tgz#49fd113a8aa00091a3f1be7d6885cfebb94eef7a"
-  integrity sha512-bLnBPabA9RQZ44oeS/SEVoqQ5KKiMbsxQxu7RaoAaONY05vgAAuH69x6c+p8mZxA9U893W6SLyts88+znTlG9A==
+"@dfuse/client@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@dfuse/client/-/client-0.2.2.tgz#52e588e56f0681a4cdd5e8cfcaa952c122bc6d88"
+  integrity sha512-7dPaORRNOGODnjIzo+GNMVst/AJANBThCwsoOaRY0pfKqvC3ZoOsFpFK++Rve3S/7/9SRVoGr3d70QXyTC3SzQ==
   dependencies:
     debug "^4.1.0"
 

@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@dfuse/client": "^0.2.1",
+    "@dfuse/client": "^0.2.2",
     "@types/node": "^11.13.7",
     "apollo-boost": "^0.3.1",
     "apollo-client": "^2.5.1",
