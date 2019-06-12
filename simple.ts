@@ -24,6 +24,7 @@ const apolloClient = new ApolloClient({
   link: new WebSocketLink({
     uri: dfuseClient.endpoints.graphqlStreamUrl,
     options: {
+      reconnect: true,
       connectionParams: async () => {
         const apiToken = await dfuseClient.getTokenInfo()
 
