@@ -53,7 +53,7 @@ let activeCursor = ""
 
 apolloClient.subscribe({
   query: gql`
-    subscription(cursor: String!) {
+    subscription($cursor: String!) {
       searchTransactionsForward(query: "status:executed", cursor: $cursor) {
         cursor
         trace { matchingActions {receiver account name json }}
