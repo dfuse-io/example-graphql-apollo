@@ -40,7 +40,7 @@ const apolloClient = new ApolloClient({
 apolloClient.subscribe({
   query: gql`
     subscription {
-      searchTransactionsForward(query: "status:executed") {
+      searchTransactionsForward(query: "action:transfer", limit:10) {
         trace { matchingActions {receiver account name json }}
       }
     }
