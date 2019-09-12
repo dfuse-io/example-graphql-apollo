@@ -54,7 +54,7 @@ let activeCursor = ""
 apolloClient.subscribe({
   query: gql`
     subscription($cursor: String!) {
-      searchTransactionsForward(query: "status:executed", cursor: $cursor) {
+      searchTransactionsForward(query: "account:eosio.token action:transfer", cursor: $cursor) {
         cursor
         trace { matchingActions {receiver account name json }}
       }
